@@ -34,28 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 }else {
                     if (number.equalsIgnoreCase("0")) {
                         txtHasil.setText("null");
-                    }else if (number.equalsIgnoreCase("1")) {
+                    }else if (number.equalsIgnoreCase("1")|| (number.equalsIgnoreCase("2") || number.equalsIgnoreCase("3") || (number.equalsIgnoreCase("4") || (number.equalsIgnoreCase("5") || (number.equalsIgnoreCase("6") || (number.equalsIgnoreCase("7") || (number.equalsIgnoreCase("8") || (number.equalsIgnoreCase("9"))))))))) {
                         txtHasil.setText("not null");
-                    } else if (number.equalsIgnoreCase("2")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("3")) {
-                        txtHasil.setText("not null");
-                    } else if (number.equalsIgnoreCase("3")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("4")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("5")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("6")) {
-                        txtHasil.setText("not null");
-                    } else if (number.equalsIgnoreCase("7")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("8")) {
-                        txtHasil.setText("not null");
-                    }  else if (number.equalsIgnoreCase("9")) {
-                        txtHasil.setText("not null");
-                    }  else {
-                        txtHasil.setText("Silahkan masukkan nomor 1-9");
+                    }   else {
+                        txtHasil.setText("Please only input number 1-9");
                     }
 
                 }
